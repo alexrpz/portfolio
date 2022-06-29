@@ -159,18 +159,19 @@ textarea {
     margin: 0 8px;
 }
 
-#proyecto img {
+#proyecto .img-fluid {
     height: 210px;
 }
 
 #proyecto h2 {
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
     color: white;
-    padding: 15px;
     margin: 0px;
+    padding: 0px;
 }
 .color-gradiente{
+    padding: 5px;
     background: rgba(184,37,20,1);
     background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
@@ -185,17 +186,10 @@ textarea {
     color: #6a6a6a;
     font-weight: 400;
 }
-.btn-Cod {
-    position: absolute;
-    margin-right: 0px;
+#proyecto .btn-Cod{
     color: #E20000;
     text-decoration: none;
 }
-
-.btn-Cod:hover {
-    color: #E20000;
-}
-
 .btn-Online {
 
     font-weight: 100;
