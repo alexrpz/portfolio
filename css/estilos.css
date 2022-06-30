@@ -259,7 +259,7 @@ p {
     height: auto;
 }
 
-#sobre-mi h2 {
+#sobre-mi .stack {
     font-weight: 600;
     font-size: 24px;
     color: white;
@@ -281,7 +281,13 @@ p {
 #sobre-mi .card{
     height: 182px;
 }
-
+#experiencia h2{
+    color: #370A6D;
+ }
+#experiencia h2{
+     font-weight: 400;
+     font-size: 24px;
+ }
 #inicio {
     background-image: url(../../images/fondo-contacto.png);
     background-size: cover;
@@ -328,7 +334,6 @@ p {
     margin: 0px;
     letter-spacing: 1px;
 }
-
 
 
 
