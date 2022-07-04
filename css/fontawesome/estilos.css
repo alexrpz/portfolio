@@ -15,10 +15,12 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-#contacto footer p{
+
+#contacto footer p {
     color: white;
     font-weight: 100;
 }
+
 h1 {
     color: #E40000;
     font-size: 36px;
@@ -42,14 +44,19 @@ footer {
     color: white;
 
 }
-#contacto footer .Email, .Suite{
+
+#contacto footer .Email,
+.Suite {
     color: white;
     font-weight: 100;
 }
-#contacto footer .Email, .Suite:hover{
+
+#contacto footer .Email,
+.Suite:hover {
     color: white;
 }
-footer a {
+
+#inicio footer a {
     color: white;
 }
 
@@ -70,6 +77,10 @@ footer .fa-github {
 
     color: #E20000;
     background-color: white;
+}
+
+#contacto .btnWhatsapp {
+    color: white;
 }
 
 .btn-whatsapp {
@@ -170,21 +181,24 @@ textarea {
     padding: 15px;
     margin: 0px;
 }
-.color-gradiente{
-    background: rgba(184,37,20,1);
-    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
-    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+
+.color-gradiente {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -o-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b82514', endColorstr='#f02f17', GradientType=1);
 }
+
 .card p {
     height: 90px;
     color: #6a6a6a;
     font-weight: 400;
 }
+
 .btn-Cod {
     position: absolute;
     margin-right: 0px;
@@ -211,6 +225,7 @@ textarea {
     color: white;
     background-color: #370a6d;
 }
+
 #proyecto footer .fa-github {
     color: #E20000;
     font-size: 33px;
@@ -257,7 +272,8 @@ p {
     width: 80%;
     border-radius: 50%;
 }
-#sobre-mi .img-fluid{
+
+#sobre-mi .img-fluid {
     max-width: 100%;
     height: auto;
 }
@@ -281,31 +297,125 @@ p {
     font-weight: 400;
     font-size: 16px;
 }
-#sobre-mi .card{
+
+#sobre-mi .card {
     height: 182px;
 }
-#experiencia h2{
+
+#experiencia h2 {
     color: #370a6d;
     font-size: 24px;
     font-weight: 400;
 }
-#experiencia h3{
+
+#experiencia h3 {
     color: #6A6A6A;
     font-size: 18px;
     font-weight: 600;
 }
-#experiencia h4{
+
+#experiencia h4 {
     font-size: 17px;
     color: #370A6D;
 }
-#experiencia h5{
+
+#experiencia h5 {
     color: #6A6A6A;
     font-size: 14px;
 }
+
+#formacion h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E20000
+}
+
+#formacion h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#formacion h4 {
+    font-size: 17px;
+    color: #E20000;
+}
+
+#formacion h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+#curso h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E20000
+}
+
+#curso h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#curso h4 {
+    font-size: 17px;
+    color: #E20000;
+}
+
+#curso h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+#extras .fa-message {
+
+    font-size: 80px;
+    color: white
+}
+
+#extras .chat {
+    background-color: #370a6d;
+    font-size: 80px;
+    border-radius: 15px;
+}
+
+#extras .chatS {
+    border-radius: 15px;
+}
+
+#extras {
+    background-color: #eee;
+}
+
+#extras h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#extras .fa-star {
+    color: white;
+    font-size: 80px;
+}
+
+#sobre-mi .ext {
+    color: #E20000;
+    font-weight: 100;
+}
+
+#sobre-mi .Email:hover {
+    color: #E20000;
+}
+
+#sobre-mi .btnWhatsapp {
+    color: white;
+}
+
 #inicio {
     background-image: url(../../images/fondo-contacto.png);
     background-size: cover;
 }
+
 #inicio .btn-proyectos {
     color: #370a6d;
     background-color: white;
@@ -324,7 +434,8 @@ p {
     color: white;
     font-weight: 100;
 }
-#inicio footer p{
+
+#inicio footer p {
     color: white;
 }
 
@@ -339,6 +450,7 @@ p {
 #inicio main .cohete:hover {
     height: 410px;
 }
+
 #inicio .input-home p {
     color: white;
     font-size: 17px;
@@ -356,26 +468,33 @@ p {
 
 
 @media (max-width: 750px) {
-    #proyecto{
+    #proyecto {
         background-image: url(../../images/fondo-proyectos.png);
         background-size: contain;
         background-repeat: no-repeat;
-    } 
-    #inicio{
+    }
+
+    #inicio {
         background-image: url(../../images/fondo-contacto.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
     }
-    #inicio p{
+
+    #inicio p {
         color: white;
     }
+
     #inicio .input-home p {
         color: #E20000;
         line-height: 23px;
     }
-    #inicio .input-home{
+
+    #inicio .input-home {
         border: 1px solid #E20000;
         border-radius: 50px;
+    }
+    #contacto{
+        height: 100%!important;
     }
 }
