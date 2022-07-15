@@ -1,3 +1,9 @@
+<?php
+    $pg ="sobre-mi";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,33 +22,7 @@
 
 <body id="sobre-mi">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-                        </li>
-                        <div>
-                            <a class="btn-cv" href="">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php"); ?>
     </header>
     <main>
         <div class="container pb-3 yo">
@@ -51,7 +31,7 @@
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
                     <p class="pb-sm-5">Apasionado por la tecnología y gestión de proyectos. Soy estudiante de
                         programación web full stack en DePC Suite.</p>
-                    <a href="contacto.html" class="btn-Online">Enviar mensaje</a>
+                    <a href="contacto.php" class="btn-Online">Enviar mensaje</a>
                 </div>
                 <div class="col-sm-3 col-12 pb-2 mt-4 offset-sm-2 text-center">
                     <img src="images/yo.jpeg" alt="Alex Acuña" title="Alex Acuña" class="img-fluid img-circle">
